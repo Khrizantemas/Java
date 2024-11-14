@@ -1,5 +1,0 @@
-1)პირველი შევქმინთ ფაილს touch davaleba3.java
-2)შევალთ ედიტორში nano და დავწერთრაც გვინდა დავპრინტოთ
-3)დავაწვებით ctrl + o , Enter , Ctrl + x
-4)ჩავწერთ კონსოლში javac davaleba3.java
-5)და ბოლოს java davaleba3.java და გამოვიტანთ ტექსტს კონსოლში
