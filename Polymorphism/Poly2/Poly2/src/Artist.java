@@ -19,7 +19,7 @@ public class Artist {
     }
 
     public void displayInfo() {
-        System.out.println("Artist: " + name);
+        System.out.println("Artist  : " + name);
         for (Album album : albums) {
             album.displayInfo();
         }

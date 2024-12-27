@@ -48,7 +48,7 @@ public class MusicLibary {
 
     public Music giveRandomMusic() {
         if (songs.isEmpty()) {
-            return null; // Return null if there are no songs
+            return null;
         }
         Random random = new Random();
         return songs.get(random.nextInt(songs.size()));

@@ -11,16 +11,16 @@ public class Music extends Playable {
 
     @Override
     public void play() {
-        System.out.println("Playing: " + title);
+        System.out.println("Playing  : " + title);
     }
 
     @Override
     public void stop() {
-        System.out.println("Stopped: " + title);
+        System.out.println("Stopped  : " + title);
     }
 
     public void displayInfo() {
-        System.out.println("Title: " + title + ", Duration: " + duration + "s, Genre: " + genre);
+        System.out.println("Title : " + title + ",  Duration : " + duration + "s , Genre : " + genre);
     }
 
     public String getTitle() {

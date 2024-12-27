@@ -21,7 +21,7 @@ public class Album {
     }
 
     public void displayInfo() {
-        System.out.println("Album: " + name + " (Released: " + releaseYear + ")");
+        System.out.println("Album : " + name + " (Released  : " + releaseYear + ")");
         for (Music music : musics) {
             music.displayInfo();
         }
